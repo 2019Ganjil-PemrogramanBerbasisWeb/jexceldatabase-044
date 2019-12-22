@@ -3,8 +3,8 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `jexcel` (
-  `nomor` varchar(3) NOT NULL,
-  `rincian` varchar(1024) NOT NULL
+  `nomor` varchar(5) NOT NULL,
+  `rincian` varchar(10000) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 
